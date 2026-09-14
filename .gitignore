@@ -1,0 +1,18 @@
+# GROMACS temporary and massive binary files
+*.trr
+*.edr
+*.log
+*.cpt
+*.gro
+*.xtc
+*.tpr
+*.ndx
+#*#
+step*
+mdout.mdp
+potential.xvg
+temperature.xvg
+pressure.xvg
+density.xvg
+__pycache__/
+*.png
