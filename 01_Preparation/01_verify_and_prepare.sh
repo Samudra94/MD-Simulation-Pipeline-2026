@@ -4,6 +4,8 @@
 # Purpose: Verifies system integrity (e.g. from CHARMM-GUI or pdb2gmx) and
 #          generates necessary index (.ndx) files for downstream simulation.
 # ==============================================================================
+# Force Field: CHARMM36m (via CHARMM-GUI) or AMBER99SB-ILDN / AMBER14SB (via pdb2gmx)
+# As per User, Any standard GROMACS-compatible force field (CHARMM, AMBER, OPLS) can be added
 
 COMPLEX_PDB="step5_input.pdb"
 TOPOLOGY="topol.top"
